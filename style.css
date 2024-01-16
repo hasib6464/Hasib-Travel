@@ -187,3 +187,99 @@ margin-left: 150px;
     translate:calc(500px);
     
 }
+/* ..........footer.......... */
+
+.footer-section{
+    text-align: center;
+    background-color: antiquewhite;
+    height: 250px;
+ padding-top: 90px;
+}
+.footer-img img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+/* ...........mobile devise........ */
+
+@media screen and (max-width:570px) {
+  .popular{
+    flex-direction:column;
+  }  
+  .tour{
+    padding-left: 0px;
+  }
+  .tour-img img{
+    padding-left: 0px;
+    height: 300px;
+  }
+  .hotel{
+    grid-template-columns:repeat(1,1fr);
+    padding-left: 2px;
+  }
+  .hotel-info{
+    padding-left: 2px;
+  }
+  .perfect-section{
+    padding-top: 10px;
+}
+.perfect-place{
+    flex-direction: column;
+    padding-left: 2px;
+}
+.perfect-simple{
+    padding:2px;
+}
+.perfect-list{
+    font-weight:normal;
+   
+}
+.perfect-title{
+    font-size: 1.5rem;
+}
+#btn-field-id{
+    padding-top:10px;
+}
+
+.perfect-place-img img{
+height: 250px;
+padding-left: 10px;
+padding-top: 20px;
+}
+
+.news-letter{
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.news-letter-field{
+    height: 250px;
+    width: 300px;
+    padding: 10px;  
+}
+.input-news{
+    width: 200px;
+    height: 20px;
+    border: 0;
+    padding-left: 0px;
+
+}
+.input-news-id{
+    margin-bottom: 5px;
+}
+.news-img-field img{
+height: 250px;
+width: 400px;
+margin-left: 5px;
+margin-top: 20px;
+}
+.img-inside-field{
+    height: 30px;
+    width: 120px;
+
+    
+}
+}

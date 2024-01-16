@@ -206,7 +206,14 @@ margin-left: 150px;
 /* ...........mobile devise........ */
 
 @media screen and (max-width:570px) {
-  .popular{
+  .nav-bar-title{
+    flex-direction: column;
+}
+.nav-bar{
+    flex-direction: column;
+    padding:5px
+}
+.popular{
     flex-direction:column;
   }  
   .tour{
@@ -281,5 +288,14 @@ margin-top: 20px;
     width: 120px;
 
     
+}
+
+.footer-section{
+    height: 250px;
+ padding-top: 20px;
+}
+.footer-img img{
+    height: 30px;
+    width: 30px;
 }
 }
